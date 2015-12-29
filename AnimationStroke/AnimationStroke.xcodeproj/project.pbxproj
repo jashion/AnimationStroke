@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D188AB81C32A55400CB17A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D188AB71C32A55400CB17A1 /* main.m */; };
+		1D188ABB1C32A55400CB17A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D188ABA1C32A55400CB17A1 /* AppDelegate.m */; };
+		1D188ABE1C32A55400CB17A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D188ABD1C32A55400CB17A1 /* ViewController.m */; };
+		1D188AC11C32A55400CB17A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D188ABF1C32A55400CB17A1 /* Main.storyboard */; };
+		1D188AC31C32A55400CB17A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D188AC21C32A55400CB17A1 /* Assets.xcassets */; };
+		1D188AC61C32A55400CB17A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D188AC41C32A55400CB17A1 /* LaunchScreen.storyboard */; };
+		1D188AD11C32A55400CB17A1 /* AnimationStrokeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D188AD01C32A55400CB17A1 /* AnimationStrokeTests.m */; };
+		1D188ADC1C32A55400CB17A1 /* AnimationStrokeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D188ADB1C32A55400CB17A1 /* AnimationStrokeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D188ACD1C32A55400CB17A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D188AAB1C32A55400CB17A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D188AB21C32A55400CB17A1;
+			remoteInfo = AnimationStroke;
+		};
+		1D188AD81C32A55400CB17A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D188AAB1C32A55400CB17A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D188AB21C32A55400CB17A1;
+			remoteInfo = AnimationStroke;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D188AB31C32A55400CB17A1 /* AnimationStroke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationStroke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D188AB71C32A55400CB17A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D188AB91C32A55400CB17A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D188ABA1C32A55400CB17A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D188ABC1C32A55400CB17A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1D188ABD1C32A55400CB17A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1D188AC01C32A55400CB17A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D188AC21C32A55400CB17A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D188AC51C32A55400CB17A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D188AC71C32A55400CB17A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D188ACC1C32A55400CB17A1 /* AnimationStrokeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationStrokeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D188AD01C32A55400CB17A1 /* AnimationStrokeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationStrokeTests.m; sourceTree = "<group>"; };
+		1D188AD21C32A55400CB17A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D188AD71C32A55400CB17A1 /* AnimationStrokeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationStrokeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D188ADB1C32A55400CB17A1 /* AnimationStrokeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationStrokeUITests.m; sourceTree = "<group>"; };
+		1D188ADD1C32A55400CB17A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D188AB01C32A55400CB17A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D188AC91C32A55400CB17A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D188AD41C32A55400CB17A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D188AAA1C32A55300CB17A1 = {
+			isa = PBXGroup;
+			children = (
+				1D188AB51C32A55400CB17A1 /* AnimationStroke */,
+				1D188ACF1C32A55400CB17A1 /* AnimationStrokeTests */,
+				1D188ADA1C32A55400CB17A1 /* AnimationStrokeUITests */,
+				1D188AB41C32A55400CB17A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D188AB41C32A55400CB17A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D188AB31C32A55400CB17A1 /* AnimationStroke.app */,
+				1D188ACC1C32A55400CB17A1 /* AnimationStrokeTests.xctest */,
+				1D188AD71C32A55400CB17A1 /* AnimationStrokeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D188AB51C32A55400CB17A1 /* AnimationStroke */ = {
+			isa = PBXGroup;
+			children = (
+				1D188AB91C32A55400CB17A1 /* AppDelegate.h */,
+				1D188ABA1C32A55400CB17A1 /* AppDelegate.m */,
+				1D188ABC1C32A55400CB17A1 /* ViewController.h */,
+				1D188ABD1C32A55400CB17A1 /* ViewController.m */,
+				1D188ABF1C32A55400CB17A1 /* Main.storyboard */,
+				1D188AC21C32A55400CB17A1 /* Assets.xcassets */,
+				1D188AC41C32A55400CB17A1 /* LaunchScreen.storyboard */,
+				1D188AC71C32A55400CB17A1 /* Info.plist */,
+				1D188AB61C32A55400CB17A1 /* Supporting Files */,
+			);
+			path = AnimationStroke;
+			sourceTree = "<group>";
+		};
+		1D188AB61C32A55400CB17A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D188AB71C32A55400CB17A1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D188ACF1C32A55400CB17A1 /* AnimationStrokeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D188AD01C32A55400CB17A1 /* AnimationStrokeTests.m */,
+				1D188AD21C32A55400CB17A1 /* Info.plist */,
+			);
+			path = AnimationStrokeTests;
+			sourceTree = "<group>";
+		};
+		1D188ADA1C32A55400CB17A1 /* AnimationStrokeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1D188ADB1C32A55400CB17A1 /* AnimationStrokeUITests.m */,
+				1D188ADD1C32A55400CB17A1 /* Info.plist */,
+			);
+			path = AnimationStrokeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D188AB21C32A55400CB17A1 /* AnimationStroke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D188AE01C32A55400CB17A1 /* Build configuration list for PBXNativeTarget "AnimationStroke" */;
+			buildPhases = (
+				1D188AAF1C32A55400CB17A1 /* Sources */,
+				1D188AB01C32A55400CB17A1 /* Frameworks */,
+				1D188AB11C32A55400CB17A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimationStroke;
+			productName = AnimationStroke;
+			productReference = 1D188AB31C32A55400CB17A1 /* AnimationStroke.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D188ACB1C32A55400CB17A1 /* AnimationStrokeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D188AE31C32A55400CB17A1 /* Build configuration list for PBXNativeTarget "AnimationStrokeTests" */;
+			buildPhases = (
+				1D188AC81C32A55400CB17A1 /* Sources */,
+				1D188AC91C32A55400CB17A1 /* Frameworks */,
+				1D188ACA1C32A55400CB17A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D188ACE1C32A55400CB17A1 /* PBXTargetDependency */,
+			);
+			name = AnimationStrokeTests;
+			productName = AnimationStrokeTests;
+			productReference = 1D188ACC1C32A55400CB17A1 /* AnimationStrokeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1D188AD61C32A55400CB17A1 /* AnimationStrokeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D188AE61C32A55400CB17A1 /* Build configuration list for PBXNativeTarget "AnimationStrokeUITests" */;
+			buildPhases = (
+				1D188AD31C32A55400CB17A1 /* Sources */,
+				1D188AD41C32A55400CB17A1 /* Frameworks */,
+				1D188AD51C32A55400CB17A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D188AD91C32A55400CB17A1 /* PBXTargetDependency */,
+			);
+			name = AnimationStrokeUITests;
+			productName = AnimationStrokeUITests;
+			productReference = 1D188AD71C32A55400CB17A1 /* AnimationStrokeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D188AAB1C32A55400CB17A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = BMu;
+				TargetAttributes = {
+					1D188AB21C32A55400CB17A1 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1D188ACB1C32A55400CB17A1 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1D188AB21C32A55400CB17A1;
+					};
+					1D188AD61C32A55400CB17A1 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1D188AB21C32A55400CB17A1;
+					};
+				};
+			};
+			buildConfigurationList = 1D188AAE1C32A55400CB17A1 /* Build configuration list for PBXProject "AnimationStroke" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D188AAA1C32A55300CB17A1;
+			productRefGroup = 1D188AB41C32A55400CB17A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D188AB21C32A55400CB17A1 /* AnimationStroke */,
+				1D188ACB1C32A55400CB17A1 /* AnimationStrokeTests */,
+				1D188AD61C32A55400CB17A1 /* AnimationStrokeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D188AB11C32A55400CB17A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D188AC61C32A55400CB17A1 /* LaunchScreen.storyboard in Resources */,
+				1D188AC31C32A55400CB17A1 /* Assets.xcassets in Resources */,
+				1D188AC11C32A55400CB17A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D188ACA1C32A55400CB17A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D188AD51C32A55400CB17A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D188AAF1C32A55400CB17A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D188ABE1C32A55400CB17A1 /* ViewController.m in Sources */,
+				1D188ABB1C32A55400CB17A1 /* AppDelegate.m in Sources */,
+				1D188AB81C32A55400CB17A1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D188AC81C32A55400CB17A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D188AD11C32A55400CB17A1 /* AnimationStrokeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D188AD31C32A55400CB17A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D188ADC1C32A55400CB17A1 /* AnimationStrokeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D188ACE1C32A55400CB17A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D188AB21C32A55400CB17A1 /* AnimationStroke */;
+			targetProxy = 1D188ACD1C32A55400CB17A1 /* PBXContainerItemProxy */;
+		};
+		1D188AD91C32A55400CB17A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D188AB21C32A55400CB17A1 /* AnimationStroke */;
+			targetProxy = 1D188AD81C32A55400CB17A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D188ABF1C32A55400CB17A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D188AC01C32A55400CB17A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D188AC41C32A55400CB17A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D188AC51C32A55400CB17A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D188ADE1C32A55400CB17A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D188ADF1C32A55400CB17A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D188AE11C32A55400CB17A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnimationStroke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BMu.AnimationStroke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1D188AE21C32A55400CB17A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnimationStroke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BMu.AnimationStroke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1D188AE41C32A55400CB17A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AnimationStrokeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BMu.AnimationStrokeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationStroke.app/AnimationStroke";
+			};
+			name = Debug;
+		};
+		1D188AE51C32A55400CB17A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AnimationStrokeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BMu.AnimationStrokeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationStroke.app/AnimationStroke";
+			};
+			name = Release;
+		};
+		1D188AE71C32A55400CB17A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AnimationStrokeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BMu.AnimationStrokeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AnimationStroke;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1D188AE81C32A55400CB17A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AnimationStrokeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BMu.AnimationStrokeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AnimationStroke;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D188AAE1C32A55400CB17A1 /* Build configuration list for PBXProject "AnimationStroke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D188ADE1C32A55400CB17A1 /* Debug */,
+				1D188ADF1C32A55400CB17A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D188AE01C32A55400CB17A1 /* Build configuration list for PBXNativeTarget "AnimationStroke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D188AE11C32A55400CB17A1 /* Debug */,
+				1D188AE21C32A55400CB17A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D188AE31C32A55400CB17A1 /* Build configuration list for PBXNativeTarget "AnimationStrokeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D188AE41C32A55400CB17A1 /* Debug */,
+				1D188AE51C32A55400CB17A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D188AE61C32A55400CB17A1 /* Build configuration list for PBXNativeTarget "AnimationStrokeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D188AE71C32A55400CB17A1 /* Debug */,
+				1D188AE81C32A55400CB17A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D188AAB1C32A55400CB17A1 /* Project object */;
+}
