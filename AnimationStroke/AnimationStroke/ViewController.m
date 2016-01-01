@@ -43,17 +43,25 @@
     CAShapeLayer *shapeLayer = [CAShapeLayer layer];
     [shapeLayer setValue: @"loadingView" forKey: @"layerName"];
     
+    //使用贝塞尔曲线先把整个路径画出来
     UIBezierPath *path = [UIBezierPath bezierPath];
     [path moveToPoint: CGPointMake(156, 135)];
     [path addLineToPoint: CGPointMake(156, 95)];
+    
+    //如何把两段对称的曲线无缝连接在一起？这里有一个技巧就是，两条曲线分别是二次贝塞尔曲线，所以，都只有一个控制点，把整个一段完成的曲线看成是一个矩形内切园的一部分，曲线和矩形的切点就是这两段贝塞尔曲线的起点和终点，两个控制点就是矩形的两个角，这样的两段对称的曲线会完美连接在一起
     [path addQuadCurveToPoint: CGPointMake(150, 85) controlPoint: CGPointMake(156, 85)];
     [path addQuadCurveToPoint: CGPointMake(144, 95) controlPoint: CGPointMake(144, 85)];
+    
     [path addLineToPoint: CGPointMake(144, 105)];
+    
     [path addQuadCurveToPoint: CGPointMake(148, 112) controlPoint: CGPointMake(144, 112)];
     [path addQuadCurveToPoint: CGPointMake(152, 105) controlPoint: CGPointMake(152, 112)];
+    
     [path addLineToPoint: CGPointMake( 152, 97)];
+    
     [path addQuadCurveToPoint: CGPointMake(150, 92) controlPoint: CGPointMake(152, 92)];
     [path addQuadCurveToPoint: CGPointMake(148, 97) controlPoint: CGPointMake(148, 92)];
+    
     [path addLineToPoint: CGPointMake(148, 135)];
     
     shapeLayer.path = path.CGPath;
@@ -64,6 +72,9 @@
     
     [_bgView.layer addSublayer: shapeLayer];
     
+    //关键的stroke animation
+    //这里动画都是居于原始图层的操作，在这里是指线画好之后的操作
+    //strokeEnd动画，fromValue: 线开始消失的点  toValue: 线消失结束的点
     CABasicAnimation *animationStart = [CABasicAnimation animation];
     animationStart.keyPath = @"strokeEnd";
     animationStart.duration = 1.f;
@@ -71,6 +82,7 @@
     animationStart.toValue = @(1);
     animationStart.timingFunction = [CAMediaTimingFunction functionWithName: kCAMediaTimingFunctionEaseInEaseOut];
     
+    //strokeStart动画，fromValue: 开始画线的点 toValue: 画线结束的点
     CABasicAnimation *animationEnd = [CABasicAnimation animation];
     animationEnd.keyPath = @"strokeStart";
     animationEnd.beginTime = 0.6f;
